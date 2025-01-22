@@ -28,7 +28,7 @@ Route::get('/', [AuthController::class, 'show'])->name('login');
 Route::get('/books', [BookController::class, 'index']);
 Route::post('/members/{id}/attach-role', [MemberController::class, 'attachRole']);
 Route::post('/members/{id}/detach-role', [MemberController::class, 'detachRole']);
-Route::post('/members/{id}/sync-roles', [MemberController::class, 'syncRoles']);
+Route::post('/members/{id}/sync-roles', [MemberController::class, 'syncRoles');
 
 
 
